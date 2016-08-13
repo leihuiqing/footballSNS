@@ -1,2 +1,2 @@
-##### footballSNS
+### footballSNS
 football-webApp
