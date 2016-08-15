@@ -1,0 +1,79 @@
+	<div class="m-home">	
+		<header>
+			<ul>
+				<li class="yo-ico">&#xe635;</li>
+				<li>
+					<ol id="hot-title">
+						<li class="active" action-type="hot-tab">热点</li>
+						<li action-type="hot-tab">关注</li>
+					</ol>
+				</li>
+				<li class="yo-ico">&#xe60f;</li>
+			</ul>
+		</header>
+
+		<div class="swiper-container" id="hot-container">
+		  <div class="swiper-wrapper">
+		    <div class="swiper-slide">
+				<nav>
+					<ul>
+						<li class="active" action-type="tabs">足球现场</li>
+						<li action-type="tabs">足球生活</li>
+						<li action-type="tabs">足球美女</li>
+					</ul>
+				</nav>							
+				<section>
+					<div class="swiper-container" id="pic-container">
+						<div class="swiper-wrapper">
+						    <div class="swiper-slide" spa-widget="scroll" data-scroll-id="scrolllist">
+						    	<div>
+						    		<div class="head">
+						    			<img src="/football-app/images/pics/arrow.png" alt="">
+						    			<span>下拉刷新…</span>
+						    		</div>
+							    	<ol ms-repeat-value="livedata">
+						    			<li action-type="goto.detail" ms-attr-data-id="value[0].id">
+						    				<img ms-src="value[0].img"/>
+						    				<h3 ms-text="value[0].title"></h3>
+						    			</li>
+						    			<li></li>
+						    			<li action-type="goto.detail" ms-class-none="!value[1]" ms-attr-data-id="value[1].id">
+						    				<img ms-src="value[1].img"/>
+						    				<h3 ms-text="value[1].title"></h3>
+						    			</li>
+							    	</ol>
+							    	<div class="foot">
+							    		<img src="/football-app/images/pics/arrow.png" alt="">
+						    			<span>上拉加载更多…</span>
+							    	</div>
+						    	</div>						    	
+						    </div>
+						    <div class="swiper-slide">
+						    	<ol>
+					    			<li><img src="/football-app/images/pics/img1.jpg"/><h3>樱桃小丸子</h3></li>
+					    			<li></li>
+					    			<li><img src="/football-app/images/pics/img2.jpg"/><h3>樱桃小丸子</h3></li>
+						    	</ol>	
+						    </div>
+						    <div class="swiper-slide">
+						    	<ol>
+					    			<li><img src="/football-app/images/pics/img3.jpg"/><h3>樱桃小丸子</h3></li>
+					    			<li></li>
+					    			<li><img src="/football-app/images/pics/img4.jpg"/><h3>樱桃小丸子</h3></li>
+						    	</ol>
+						    </div>
+						</div>
+					</div>
+				</section>						
+				
+		    </div>
+		    <div class="swiper-slide">		    				
+		    	<div class="sport">
+		    		<p class="reck"></p>
+		    		<p>加载中…</p>
+		    	</div>
+		    </div>
+		  </div>
+		</div>
+
+	</div>

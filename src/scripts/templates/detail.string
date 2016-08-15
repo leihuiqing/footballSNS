@@ -1,0 +1,21 @@
+<div class="m-detail">
+	<header>
+		<ul>
+			<li class="yo-ico">&#xe635;</li>
+			<li>{{title}}</li>
+			<li class="yo-ico">&#xe60f;</li>
+		</ul>
+	</header>
+	<div spa-widget="scroll" data-scroll-id="listScroll">
+		<section ms-visible="!isVisible">
+			<p><img ms-src="img"></p>
+			<article>{{describe}}</article>
+			<nav class="nav">导航固定栏</nav>
+			<div></div>
+		</section>
+		<div class="yo-loading" ms-visible="isVisible">
+    		<div class="inner"><i class="yo-ico"></i><span>加载中...</span></div>
+		</div>
+	</div>	
+	
+</div>

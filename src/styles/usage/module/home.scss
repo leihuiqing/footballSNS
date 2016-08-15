@@ -1,0 +1,210 @@
+	@keyframes rotate{
+		from{
+			-webkit-transform:rotate3d(0,0,1,0);
+		}
+		to{
+			-webkit-transform:rotate3d(0,0,1,360deg);
+		}
+	}
+	.m-home{
+		@include flex(1);
+		width:100%;	
+		height:100%;
+		@include flexbox();
+		@include flex-direction(column);
+		background:#fff;
+		header{
+			width:100%;
+			height:.44rem;
+			background:#0CC140;
+			>ul{
+				width:100%;
+				height:.44rem;
+				@include flexbox();
+				>li{
+					width:.44rem;
+					font-size:.2rem;
+					color:#fff;
+					line-height:.44rem;
+					text-align:center;
+					&:nth-child(2){						
+						@include flex(1);
+						@include flexbox();
+						@include justify-content(center);
+						@include align-items(center);
+						ol{
+							width:1.18rem;
+							height:.25rem;
+							@include flexbox();
+							background:rgba(100,217,133,.7);
+							color:rgba(255,255,255,.7);
+							@include border-radius(.4rem);
+							overflow:hidden;
+							li{
+								width:.59rem;
+								text-align:center;
+								line-height:.25rem;
+								font-size:.12rem;
+								&.active{
+									background:rgba(100,217,133,1);
+									color:rgba(255,255,255,.7);
+								}
+							}
+							
+						}
+						
+					}
+				}
+			}
+		}	
+		#hot-container{
+			@include flex(1);
+			width:100%;
+			height:100%;
+			position:relative;
+			>.swiper-wrapper{
+				@include flex(1);
+				width:100%;
+				height:100%;
+				position:absolute;
+				>.swiper-slide:first-child{				
+					@include flexbox();
+					@include flex-direction(column);
+					width:100%;
+					height:100%;
+					nav{
+						width:100%;
+						height:.35rem;
+						ul{
+							width:100%;
+							height:100%;
+							@include flexbox();				
+							li{
+								width:100%;
+								height:100%;
+								@include box-sizing(border-box);
+								@include flex(1);
+								text-align:center;
+								line-height:.35rem;
+								color:#888888;
+								@include border(0 0 1px 0,#888888);
+								&.active{
+									color:#519765;
+									@include border(0 0 0 0,#888888);
+									border-bottom:2px solid #43A35C;
+								}
+							}
+						}
+					}
+					section{
+						@include flex(1);
+						width:100%;
+						height:100%;
+						position:relative;
+						margin-bottom:.1rem;
+						>#pic-container{
+							width:100%;
+							height:100%;
+							position:absolute;
+							.head{
+								text-align: center;
+			                    height: .35rem;
+			                    line-height: .35rem;
+			                    img {
+			                      width: .13rem;
+			                      height: .13rem;
+			                      margin-bottom: 0.02rem;
+			                      display: inline-block;
+			                      transform: rotate(180deg);
+			                      -webkit-transform: rotate(180deg);
+			                      transition: transform 150ms;
+			                      -webkit-transition: transform 150ms;
+			                    }
+							}
+							.foot{
+								text-align: center;
+			                    height: .35rem;
+			                    line-height: .35rem;
+			                    img {
+			                      width: .13rem;
+			                      height: .13rem;
+			                      margin-bottom: 0.04rem;
+			                      display: inline-block;
+			                      transition: transform 150ms;
+			                      -webkit-transition: transform 150ms;
+			                    }
+							}
+							.up {
+			                    transform: rotate(360deg) !important;
+			                    -webkit-transform: rotate(360deg) !important;
+			                }
+			                .down {
+			                    transform: rotate(180deg) !important;
+			                    -webkit-transform: rotate(180deg) !important;
+			                }
+						}	
+						ol{
+							width:100%;
+							@include flexbox();
+							li{
+								&:nth-of-type(2){
+									width:0.05rem;
+								}
+								&:not(:nth-of-type(2)){
+									@include flex(1);
+									@include box-sizing();
+									margin-top: .05rem;
+									@include border(1px,#ccc);
+									img{
+										width:100%;
+										height:100%;
+									}
+									h3{
+										width:100%;
+										line-height: .3rem;
+										font-size:.14rem;
+										padding: 0 .1rem;
+										@include border(1px 0 0 0,#ccc);
+										@include box-sizing(border-box);
+										text-overflow:ellipsis;
+										overflow:hidden;
+										white-space:nowrap;	
+									}
+								}
+								&.none{
+									visibility:hidden;
+								}
+							}				
+						}
+					}	
+				}
+			}						
+		}
+
+
+
+
+
+		
+		
+		.sport{
+			width:2.2rem;
+			height:1.5rem;
+			position:absolute;
+			left:0;
+			bottom:0;
+			top:0;
+			right:0;
+			margin:auto;
+			text-align:center;
+			.reck{
+				width:.48rem;
+				height:.15rem;
+				@include border(5px,#000,solid);
+				@include box-sizing(border-box);
+				margin:.5rem auto .3rem;
+				-webkit-animation:rotate 1.2s linear infinite;
+			}
+		}	
+		
+	}

@@ -1,0 +1,13 @@
+<div class="yo-dialog yo-dialog-a">
+    <header class="hd">
+        <h2 class="title">登录</h2>
+    </header>
+    <div class="bd">
+        <p><input type="text" placeholder="用户名"></p>
+        <p><input type="text" placeholder="密码"></p>
+    </div>
+    <footer class="ft">
+        <button class="yo-btn yo-btn-dialog yo-btn-l" action-type="tap.register">点击注册</button>
+        <button class="yo-btn yo-btn-dialog yo-btn-l" action-type="tap.close">确定</button>
+    </footer>
+</div>

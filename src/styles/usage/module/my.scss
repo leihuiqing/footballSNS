@@ -1,0 +1,117 @@
+
+.m-my{
+	width:100%;	
+	height:100%;
+	@include flexbox();
+	@include flex-direction(column);
+	header{
+			width:100%;
+			height:.44rem;
+			background:#0CC140;
+			>ul{
+				width:100%;
+				height:.44rem;
+				@include flexbox();
+				>li{
+					width:.44rem;
+					font-size:.2rem;
+					color:#fff;
+					line-height:.44rem;
+					text-align:center;
+					&:nth-child(2){						
+						@include flex(1);
+						@include flexbox();
+						@include justify-content(center);
+						@include align-items(center);
+						ol{
+							width:1.18rem;
+							height:.25rem;
+							@include flexbox();
+							background:rgba(100,217,133,.7);
+							color:rgba(255,255,255,.7);
+							@include border-radius(.4rem);
+							overflow:hidden;
+							li{
+								width:.59rem;
+								text-align:center;
+								line-height:.25rem;
+								font-size:.12rem;
+								&.active{
+									background:rgba(100,217,133,1);
+									color:rgba(255,255,255,.7);
+								}
+							}
+							
+						}
+						
+					}
+				}
+			}
+	}
+	.my-content{
+		@include flex(1);
+		width:100%;
+		height:100%;
+		background:#fff;
+		margin:.06rem 0;
+		dl{
+			width:100%;
+			@include flexbox();
+			dt{
+				width:.78rem;
+				text-align:right;
+				padding-top:.2rem;
+				img{
+					width:.6rem;
+					height:.6rem;
+				}
+			}
+			dd{
+				@include flex(1);
+				padding:.2rem.15rem;
+				line-height:.24rem;
+				h2{
+					font-size:.18rem;
+				}
+				p{
+					font-size:.14rem;
+					color:#999;
+				}
+			}
+		}
+		ul{
+			@include flexbox();
+			li{
+				@include flex(1);
+				text-align:center;
+				line-height:.33rem;
+				padding-bottom:.05rem;
+				font-size:.15rem;
+				@include border(0 0 1px 0, #ccc ,solid);
+				&.active{
+					color: #14C143;
+					@include border(0 0 0 0, #ccc ,solid);
+					border-bottom:2px #14C143 solid;
+				}
+			}
+		}
+		#nav-list{			
+			width:100%;
+			overflow:hidden;
+			ol{
+				@include flexbox();
+				@include flex-direction();
+				width:6rem;
+				@include border(1px);
+				@include box-sizing();
+			}
+			li{
+				@include flex(1);
+				text-align:center;
+				line-height:.3rem;
+				@include border(0 1px 0 0);
+				@include box-sizing();
+			}
+		}
+	}
+}

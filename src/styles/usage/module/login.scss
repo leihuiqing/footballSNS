@@ -1,0 +1,27 @@
+
+@include yo-dialog(
+	$name:a,
+	$height:1.8rem
+){
+	h2{
+		color:#0CC140;;
+	}
+	p{
+		height:.35rem;
+		margin:0 .15rem;
+	}
+	p:first-child{
+		@include border(0 0 1px 0,#ccc);		
+	}
+	input{
+		height:.35rem;
+		line-height:.35rem;
+		border:none;
+		outline:none;
+	}
+	.ft{
+		button:last-child{
+			color:#0CC140;;
+		}
+	}
+}

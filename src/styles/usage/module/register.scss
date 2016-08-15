@@ -1,0 +1,16 @@
+@import "../../lib/fragment/yo-list";
+@import "../../lib/element/yo-input";
+
+
+.m-register {
+  .label{
+    position:relative;
+    border:none;
+    span:nth-child(2){
+      color:red;
+      position:absolute;
+      right:.1rem;
+
+    }
+  }
+}

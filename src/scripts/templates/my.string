@@ -1,0 +1,39 @@
+
+	<div class="m-my">	
+		<header>
+			<ul>
+				<li class="yo-ico">&#xe635;</li>
+				<li>个人中心</li>
+				<li></li>
+			</ul>
+		</header>
+		<div  class="my-content">
+			<dl>
+				<dt><img src="/football-app/images/pics/pikachu.jpg" alt=""></dt>
+				<dd>
+					<h2>我是小萌</h2>
+					<p>我是小萌我怕谁，哈哈哈哈哈！</p>
+				</dd>
+			</dl>
+			<ul>
+				<li class="active">图片<i>(1)</i></li>
+				<li>关注<i>(3)</i></li>
+				<li>粉丝<i>(4)</i></li>
+			</ul>
+	
+			<div id="nav-list" spa-widget="scroll" data-scroll-id="liveScroll">
+					<ol>
+						<li>足球</li>
+						<li>足球</li>
+						<li>足球</li>
+						<li>足球</li>
+						<li>足球</li>
+						<li>足球</li>
+						<li>蓝球</li>
+						<li>蓝球</li>
+						<li>蓝球</li>
+						<li>高尔夫球</li>
+			    	</ol>
+			</div>			
+		</div>
+	</div>

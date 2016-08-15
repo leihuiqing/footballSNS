@@ -1,0 +1,24 @@
+{
+  "ver": "1.0",
+  "ret": true,
+  "errcode": 0,
+  "errmsg": "",
+  "data": [
+  {
+    "img": "/football-app/images/pics/img1.jpg",
+    "title": "refresh1小丸子"
+  }, {
+    "img": "/football-app/images/pics/img2.jpg",
+    "title": "refresh2小丸子"
+  }, {
+    "img": "/football-app/images/pics/img3.jpg",
+    "title": "refresh3小丸子"
+  }, {
+    "img": "/football-app/images/pics/img4.jpg",
+    "title": "refresh4小丸子"
+  }, {
+    "img": "/football-app/images/pics/img1.jpg",
+    "title": "refresh5小丸子"
+  }
+  ]
+}

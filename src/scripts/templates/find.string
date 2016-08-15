@@ -1,0 +1,49 @@
+<div class="m-find">
+		<header>
+			<ul>
+				<li class="yo-ico">&#xe635;</li>
+				<li>发现</li>
+				<li></li>
+			</ul>
+		</header>
+		<div id="nav">
+			<input type="text" placeholder="请输入昵称">
+			<button>取消</button>
+		</div>
+		<div class="find-content">
+			<ul>
+				<li>
+					<img src="/football-app/images/pics/pikachu.jpg" alt="">
+					<div>
+						<h2>朴智星</h2>
+						<p>朴智星：韩国战中国需做好准备</p>						
+					</div>
+					<span>关注</span>
+				</li>
+				<li>
+					<img src="/football-app/images/pics/pikachu.jpg" alt="">
+					<div>
+						<h2>朴智星</h2>
+						<p>朴智星：韩国战中国需做好准备</p>						
+					</div>
+					<span class="active">关注</span>
+				</li>
+				<li>
+					<img src="/football-app/images/pics/pikachu.jpg" alt="">
+					<div>
+						<h2>朴智星</h2>
+						<p>朴智星：韩国战中国需做好准备</p>						
+					</div>
+					<span>关注</span>
+				</li>
+				<li>
+					<img src="/football-app/images/pics/pikachu.jpg" alt="">
+					<div>
+						<h2>朴智星</h2>
+						<p>朴智星：韩国战中国需做好准备</p>						
+					</div>
+					<span class="active">关注</span>
+				</li>
+			</ul>
+		</div>
+</div>
