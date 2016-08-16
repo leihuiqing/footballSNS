@@ -15,3 +15,5 @@ require("./views/register");
 SPA.config({
 	indexView:"index"
 })
+
+console.log("hello-marry")
