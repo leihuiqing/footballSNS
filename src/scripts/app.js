@@ -16,4 +16,5 @@ SPA.config({
 	indexView:"index"
 })
 
-console.log("hello-marry")
+console.log("hello-marry");
+alert("1314521");
