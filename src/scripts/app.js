@@ -17,4 +17,8 @@ SPA.config({
 })
 
 console.log("hello-marry");
+<<<<<<< HEAD
 console.log("第二个人在进行开发自己的代码");
+=======
+alert("1314521");
+>>>>>>> 20160816-footballSNS-bugfix
