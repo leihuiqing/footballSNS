@@ -16,4 +16,5 @@ SPA.config({
 	indexView:"index"
 })
 
-console.log("hello-marry")
+console.log("hello-marry");
+console.log("第二个人在进行开发自己的代码");
